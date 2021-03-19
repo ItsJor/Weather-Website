@@ -1,0 +1,6 @@
+
+.highlighted {
+    background-color: yellow;
+    border: 1px dashed #666600;
+    font-weight: bold;
+}

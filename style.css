@@ -192,3 +192,10 @@
   margin-top:100px;
   margin-bottom:0px;
 }
+
+
+.highlighted {
+  background-color: yellow;
+  border: 1px dashed #666600;
+  font-weight: bold;
+}
