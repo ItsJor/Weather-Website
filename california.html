@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i|Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="display_california.js"> </script>
+  </head>
+  <body>
+
+    <header id="head_top">
+      <nav>
+        <div id="logo"> 
+          Weather
+        </div>
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="newyork.html">New York</a>
+            <a href="california.html">California</a>
+            <a href="readme.html">Read Me</a>
+          <a class="button">BUTTON DOES NOTHING </a>
+        </div>
+      </nav>
+
+      <h1>
+        <em>Weather</em><br/>
+        <strong>Take control of your day</strong><br/>
+        <a class="button">All in real time</a>
+      </h1>
+
+    </header>
+    <section>
+        
+        <div>
+            <button type="button" onclick="load_weather()"> Click here to display weather data for California </button><br>
+    
+            <b>Location : </b> <span id="loc"></span><br>
+            <b>Weather  : </b> <span id="wea"></span><br>
+            <b>Temperature : </b> <span id="temp"></span><br>
+            <b>Wind Strength : </b> <span id="wind_str"></span><br>
+            <b>Humidity : </b> <span id="hum"></span><br>
+            <b>Station Id: </b> <span id="stat_id"></span><br>
+            <b>Observation Time: </b> <span id="obs_time"></span><br>
+            <b>Wind Direction: </b> <span id="wind_dir"></span><br>
+            <b>Dewpoint: </b> <span id="dew"></span><br>
+            <b>Visibility: </b> <span id="vis"></span><br>
+        </div>
+
+    </section>
+    <footer>
+      <address>Jordan Lin </address>
+      <p>Contact: jordanlin1360@gmail.com</p>
+    </footer>
+  </body>
+</html>
